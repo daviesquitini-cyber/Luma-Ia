@@ -10,7 +10,7 @@ jobs:
       - name: Extrair projeto
         run: |
           mkdir -p /tmp/luma
-          unzip -q Luma-projeto.zip -d /tmp/luma
+          unzip -q *.zip -d /tmp/luma
       - uses: actions/setup-java@v4
         with:
           distribution: temurin
